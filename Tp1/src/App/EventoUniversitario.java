@@ -43,7 +43,10 @@ public class EventoUniversitario {
     }
 
     public static int getCantidadEventos() {
+
+
         return cantidadEventos;
+
     }
 
 
