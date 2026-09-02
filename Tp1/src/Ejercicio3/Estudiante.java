@@ -12,4 +12,12 @@ public class Estudiante {
 
     }
 
+    public String getLegajo() {
+        return legajo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
 }

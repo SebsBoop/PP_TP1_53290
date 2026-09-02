@@ -92,6 +92,12 @@ public class EventoUniversitario {
         }
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+
+
     public List<Actividad> getActividades() {
         return actividades;
     }

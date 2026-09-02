@@ -17,6 +17,7 @@ public class EventoUniversitario {
         this.titulo = titulo;
         this.costoBase = costoBase;
         this.gratuito = gratuito;
+        this.actividades = new ArrayList<>();
         cantidadEventos++;
 
     }
