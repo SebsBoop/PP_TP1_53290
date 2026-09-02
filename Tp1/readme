@@ -1,0 +1,55 @@
+Trabajo Práctico 1 desarrollado en **Java**, basado en un sistema de gestión de eventos universitarios.
+
+## Descripción
+
+El sistema permite gestionar:
+
+* Estudiantes.
+* Eventos universitarios.
+* Salas.
+* Actividades (Charlas y Talleres).
+* Inscripciones de estudiantes.
+* Cálculo del costo estimado de los eventos.
+
+El proyecto aplica conceptos de **Programación Orientada a Objetos**, incluyendo encapsulamiento, herencia, abstracción y polimorfismo.
+
+## Requisitos
+
+* Java JDK
+* Git
+
+## Clonar el repositorio
+
+```bash
+git clone https://github.com/Alfonso53414/PP_TP1_53414.git
+cd PP_TP1_53414
+```
+
+## Ejecución
+
+Si los archivos `.java` se encuentran en la misma carpeta:
+
+```bash
+javac *.java
+java App
+```
+
+También puede abrirse el proyecto desde un IDE como **IntelliJ IDEA, Eclipse o Visual Studio Code** y ejecutar la clase `App`.
+
+## Funcionamiento
+
+El programa se ejecuta desde consola y guía al usuario durante el proceso:
+
+```text
+Registrar estudiantes
+        ↓
+Crear evento
+        ↓
+Asignar sala
+        ↓
+Crear actividades
+        ↓
+Realizar inscripciones
+        ↓
+Mostrar información del evento
+```

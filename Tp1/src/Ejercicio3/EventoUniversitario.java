@@ -13,7 +13,7 @@ public class EventoUniversitario {
     private Sala sala;
     private List<Actividad> actividades;
 
-    // Constructor principal
+
     public EventoUniversitario(String id, String titulo, double costoBase, boolean gratuito) {
         this.id = id;
         this.titulo = titulo;
@@ -23,7 +23,7 @@ public class EventoUniversitario {
         cantidadEventos++;
     }
 
-    // Constructor de copia
+
     public EventoUniversitario(EventoUniversitario otro) {
         this.id = otro.id;
         this.titulo = otro.titulo;
@@ -75,7 +75,6 @@ public class EventoUniversitario {
         actividades.add(nuevaActividad);
     }
 
-    // Muestra los datos del evento y, de forma polimórfica, la identificación de cada actividad
     public void mostrarDatos() {
         System.out.println("ID: " + id);
         System.out.println("Título: " + titulo);
