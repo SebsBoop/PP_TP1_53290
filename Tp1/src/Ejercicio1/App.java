@@ -1,4 +1,4 @@
-package App;
+package Ejercicio1;
 
 public class App {
 
@@ -28,6 +28,4 @@ public class App {
         // d. Mostramos el contador total de eventos creados
         System.out.println("\nCantidad total de eventos creados: " + EventoUniversitario.getCantidadEventos());
     }
-
-
 }

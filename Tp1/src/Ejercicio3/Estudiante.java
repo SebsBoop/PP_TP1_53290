@@ -1,3 +1,5 @@
+package Ejercicio3;
+
 public class Estudiante {
 
     private String legajo;

@@ -1,10 +1,15 @@
-package App;
+package Ejercicio2;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class EventoUniversitario {
     private final String id;
     private String titulo;
     private double costoBase;
     private boolean gratuito;
+    private Sala sala;
+    private List<Actividad> actividades;
     private static int cantidadEventos;
 
     public EventoUniversitario(String id, String titulo, double costoBase, boolean gratuito) {
@@ -40,6 +45,21 @@ public class EventoUniversitario {
         System.out.println("Costo Base: " + costoBase);
         System.out.println("Costo Estimado: " + calcularCostoEstimado());
 
+    }
+
+    public void asignarSala(Sala sala){
+
+        this.sala = sala;
+
+    }
+
+    public void crearActividad(int id, String titulo, int cupo) {
+        Actividad nuevaActividad = new Actividad(id, titulo, cupo);
+        actividades.add(nuevaActividad);
+    }
+
+    public List<Actividad> getActividades() {
+        return actividades;
     }
 
     public static int getCantidadEventos() {
