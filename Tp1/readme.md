@@ -82,30 +82,6 @@ Cada ejercicio vive en su propio paquete Java, de forma independiente, ya que ca
 
 Incluye el diagrama en `Ejercicio4/mapa-memoria.png`, mostrando las variables locales del `main`, los objetos en el Heap, y las relaciones de asociación, agregación, composición y herencia entre ellos.
 
-## Cómo compilar y ejecutar
-
-Desde la carpeta `Tp1/src`, reemplazando `EjercicioN` por el ejercicio que se quiera correr:
-
-```bash
-javac EjercicioN/*.java
-java EjercicioN.App
-```
-
-Ejemplo, para correr el Ejercicio 3:
-
-```bash
-cd Tp1/src
-javac Ejercicio3/*.java
-java Ejercicio3.App
-```
-
-También puede ejecutarse directamente desde IntelliJ IDEA, corriendo la clase `App.java` del ejercicio correspondiente (botón ▶ o `Run`).
-
-## Requisitos
-
-- JDK 17 o superior
-- IntelliJ IDEA (recomendado, opcional)
-
 ## Autor
 
-Trabajo práctico realizado para la cátedra de Paradigmas de Programación — UTN, Facultad Regional Mendoza.
+Trabajo práctico realizado por Sebastian Alvarez.
